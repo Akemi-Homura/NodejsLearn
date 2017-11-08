@@ -6,17 +6,15 @@ module.exports = {
     "rules": {
         "indent": [
             "error",
-            4
+            4,
+            {"SwitchCase":1}
         ],
         "linebreak-style": [
             "error",
             "unix"
         ],
         "quotes": "off",
-        "semi": [
-            "error",
-            "always"
-        ],
+        "semi": "off",
         "no-console": "off",
         "no-unused-vars": "warn",
         "no-undefined": "error",
